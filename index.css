@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+}
+.button {
+  background-color: #F6C453;
+  color: white;
+}
+.header-container {
+  height: 1024px;
+  width: auto;
+  background: #183A1D;
+}
+.nav-items {
+  display: flex;
+  font-size: 16px;
+  list-style-type: none;
+  display: inline-block;
+}
+.hero-text {
+  font-size: 20px;
+  text-align: left;
+  color: white;
+}
+#hero-header {
+  font-size: 26px;
+  float: left;
+  padding-left: 147px;
+  margin: 0px
+}
+h1 {
+  margin: 0;
+  padding: 14px 10px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #F6C453;
+  text-align: right;
+  padding-right: 187px;
+  padding: 0 187 0 0;
+  margin: 0px;
+  height: 58px;
+}
+li a {
+  display: inline-block;
+  color: white;
+  padding: 36px 10px;
+  text-decoration: none;
+  height: 0px;
+}
+li a:hover {
+  font-weight: bold;
+  background-color: #183A1D; 
+}
+
+
+/* FEFBE9 white colour*/ 
