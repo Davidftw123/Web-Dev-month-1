@@ -7,11 +7,34 @@ p {
   color: white;
   margin-bottom: 30px;
 }
+h1 {
+  margin: 0;
+  padding: 14px 10px;
+}
 h2, h3 {
   font-size: 26px;
   text-align: center;
   color: white;
   margin-top: 55px;
+}
+h4 {
+  margin:0;
+  margin-left: 764px;
+  margin-top: 100px;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.hero-text {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+#hero-header {
+  font-size: 26px;
+  float: left; 
+  margin-left: 260px;
 }
 .button {
   background-color: #F6C453;
@@ -36,27 +59,13 @@ h2, h3 {
   background: #183A1D;
   background-image: url("./images/Splatter1.png"), url("./images/Splatter2.png");
   background-repeat: no-repeat;
+  background-position-y: 30px;
 }
 .nav-items {
   display: flex;
   font-size: 16px;
   list-style-type: none;
   display: inline-block;
-}
-.hero-text {
-  font-size: 10px;
-  text-align: center;
-  color: white;
-}
-#hero-header {
-  font-size: 26px;
-  float: left;
-  padding-left: 147px;
-  margin: 0px
-}
-h1 {
-  margin: 0;
-  padding: 14px 10px;
 }
 ul {
   list-style-type: none;
@@ -128,4 +137,14 @@ li a:hover {
   margin-left: 80px;
   height: 70px;
   width: 70px;
+}
+.section2-container {
+  height: 1024px;
+  width: auto;
+  background: #FEFBE9;
+}
+.section-titles {
+  display:flex;
+  font-size: 26px;
+  color: #F0A04B;
 }
