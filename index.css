@@ -1,150 +1,281 @@
+/* hero section */
+
 body {
-  margin: 0px;
-}
-p { 
-  font-size: 14px;
-  text-align: center;
-  color: white;
-  margin-bottom: 30px;
-}
-h1 {
-  margin: 0;
-  padding: 14px 10px;
-}
-h2, h3 {
-  font-size: 26px;
-  text-align: center;
-  color: white;
-  margin-top: 55px;
-}
-h4 {
-  margin:0;
-  margin-left: 764px;
-  margin-top: 100px;
-}
-a {
-  list-style-type: none;
-  text-decoration: none;
-}
-.hero-text {
-  font-size: 10px;
-  text-align: center;
-  color: white;
-}
-#hero-header {
-  font-size: 26px;
-  float: left; 
-  margin-left: 260px;
-}
-.button {
-  background-color: #F6C453;
-  color: white;
-  width: 186px;
-  height: 47px;
-  border-radius: 12px; 
-  border: none;
-  text-align: center;
-  margin-left: 170px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.button:hover {
-  background-color: #183A1D;
-  color: #F6C453;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  font-weight: bold;
-}
-.header-container {
-  height: 1024px;
-  width: auto;
-  background: #183A1D;
-  background-image: url("./images/Splatter1.png"), url("./images/Splatter2.png");
-  background-repeat: no-repeat;
-  background-position-y: 30px;
-}
-.nav-items {
-  display: flex;
-  font-size: 16px;
-  list-style-type: none;
+    margin: 0px;
+  }
+  p.herotext {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+  }
+  p { 
+    font-size: 25px;
+  }
+  h1 {
+    margin: 0;
+    padding: 14px 10px;
+  }
+  h2, h3 {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    margin: 40px 93px 25px 93px;
+  }
+  h5, h6 {
+    margin-left: 720px;
+    margin-top: 76px;
+  }
+  a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .hero-text {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+  }
+  #hero-header {
+    font-size: 26px;
+    float: left; 
+    margin-left: 260px;
+  }
+  .hero-container1, .hero-container2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px;
+    border-color: red;
+  }
+  .box1, .box2, .box3, .box4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .hero {
+    width: 533px;
+    height: 285px;
+    font-size: 48px;
+    text-align: center;
+    align-items: center;
+    background-color: #F0A04B;
+  }
+  .text {
+   border: solid;
+   border-color: mistyrose;
+   text-align:center;
+  }
+  .boxcontainer {
   display: inline-block;
-}
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #F6C453;
-  text-align: right;
-  padding-right: 187px;
-  padding: 0 187 0 0;
-  margin: 0px;
-  height: 58px;
-}
-li a {
-  display: inline-block;
-  color: white;
-  padding: 36px 10px;
-  text-decoration: none;
-  height: 0px;
-}
-li a:hover {
-  font-weight: bold;
-  background-color: #183A1D; 
-}
-.hero-images {
-  width: 533px;
-  height: 285px;
-}
-.hero-container1 {
-  display: inline-block;
-  margin-top: 120px;
-  margin-left: 312px;
-  width: 533px;
-  height: 285px;
-  background-color: #F0A04B; 
-  padding: 0;
-}
-.hero-container2 {
-  display: inline-block;
-  margin-top: 120px;
-  margin-right: 312px;
-  width: 533px;
-  height: 285px;
-  background-color: #F0A04B; 
-  float: right;
-}
-.hero-container3 {
-  display: inline-block;
-  margin-left: 312px;
-  width: 533px;
-  height: 285px;
-  background-color: #F0A04B; 
-}
-.hero-container4 {
-  display:inline-block;
-  width: 533px;
-  height: 285px;
-  background-color: #F0A04B; 
-  margin-top: 0px;
-  margin-right: 312px;
-  float: right;
-}
-.hero-container5 {
-  display:block;
-  width: 700px; 
-  height: 160px; 
-  margin-left: 496px;
-  margin-top: 35px;
-}
-.socials {
-  margin-left: 80px;
-  height: 70px;
-  width: 70px;
-}
-.section2-container {
-  height: 1024px;
-  width: auto;
-  background: #FEFBE9;
-}
-.section-titles {
-  display:flex;
-  font-size: 26px;
-  color: #F0A04B;
-}
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  }  
+  .button {
+    background-color: #F6C453;
+    color: white;
+    width: 186px;
+    height: 47px;
+    border-radius: 12px; 
+    border: none;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 #F6C453, 0 6px 20px 0 #183A1D;
+  }
+  .button:hover {
+    background-color: #183A1D;
+    color: #F6C453;
+    box-shadow: 0 12px 16px 0 #183A1D, 0 17px 50px 0 #F6C453;
+    font-weight: bold;
+  }
+  .main-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid;
+    height: 873px;
+    width: auto;
+    background-color: #183A1D;
+    border: 30px;
+    background-image: url("./images/Splatter1.png"), url("./images/Splatter2.png"), url("./images/Splatter3.png"), url("./images/Splatter4.png");
+    background-repeat: no-repeat;
+    background-position-y: 0px, 0px, 320px, 320px;
+    background-position-x: 0px, -100px, 0px, 870px;
+  }
+  .nav-items {
+    font-size: 16px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #F6C453;
+    text-align: right;
+    padding-right: 305px;
+    padding: 0 187 0 0;
+    margin: 0px;
+    height: 58px;
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    padding: 36px 10px;
+    text-decoration: none;
+    height: 0px;
+  }
+  li a:hover {
+    font-weight: bold;
+    background-color: #183A1D; 
+  }
+  .hero-socials-container {
+    display: inline-block;
+    align-items: center;
+    height: 60px;
+    margin-top: 25px;
+  }
+  .socials {
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+    height: 50px; 
+    width: 50px;
+  }
+  .section-titles {
+    display:flex;
+    font-size: 26px;
+    color: #F0A04B;
+  }
+
+  /* section 2 */ 
+  em {
+    color: #183A1D;
+    font-style: normal;
+  }
+  h4, h5, h6 {
+  margin-bottom: 60px;
+  }
+  p.squaretext {
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+    width: 255px;
+    border-radius: 12px;
+    color: #183A1D;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .section2-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    flex-direction: column;
+    background: #FEFBE9;
+    background-image: url("./images/Splatter3.png"), url("./images/Splatter4.png"), 
+    url("./images/Splatter5.png");
+    background-repeat: no-repeat;
+    background-position-y: -552px, -552px, -12px;
+    background-position-x: 2px, 870px, 0px;
+  }
+  .squarecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .processicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  .squaredown {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    height: 300px;
+    width: 255px;
+    border-radius: 12px;
+
+  }
+  .process.block1, .process.block2, .process.block3, .process.block4 {
+    display:inline-block;
+    align-items: end;
+    justify-content: end;
+    margin: 0px;
+    padding: 0px;
+    height: 75px;
+    text-align: center;
+    background-color: #F6C453;
+    border-radius: 12px;
+  }
+  .square1, .square2, .square3, .square4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F0A04B;
+    border-color: #F6C453;
+    height: 250px;
+    width: 255px;
+    border-radius: 12px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*section 3*/
+  .section3-container {
+    height: 600px;
+    width: auto;
+    background: #F0A04B;
+    background-image: url("./images/Splatter5.png"), url("./images/Splatter6.png");
+    background-repeat: no-repeat;
+    background-position-y: -512px, 50px;
+    background-position-x: 0px, 890px;
+  }
+  #section3-title {
+    color:white;
+  }
+
+  /* section 4 */
+  .section4-container {
+    height: 600px;
+    width: auto;
+    background: #FEFBE9;
+  }
+  #section4-title {
+    font-size: 36px;
+  }

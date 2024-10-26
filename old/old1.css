@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+}
+p { 
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+h1 {
+  margin: 0;
+  padding: 14px 10px;
+}
+h2, h3 {
+  font-size: 26px;
+  text-align: center;
+  color: white;
+  margin-top: 55px;
+}
+h4 {
+  margin:0;
+  margin-left: 764px;
+  margin-top: 76px;
+}
+h5, h6 {
+  margin-left: 720px;
+  margin-top: 76px;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.hero-text {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+#hero-header {
+  font-size: 26px;
+  float: left; 
+  margin-left: 260px;
+}
+.button {
+  background-color: #F6C453;
+  color: white;
+  width: 186px;
+  height: 47px;
+  border-radius: 12px; 
+  border: none;
+  text-align: center;
+  margin-left: 170px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+  background-color: #183A1D;
+  color: #F6C453;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  font-weight: bold;
+}
+.header-container {
+  height: 1024px;
+  width: auto;
+  background: #183A1D;
+  background-image: url("./images/Splatter1.png"), url("./images/Splatter2.png"), url("./images/Splatter3.png"), url("./images/Splatter4.png");
+  background-repeat: no-repeat;
+  background-position-y: 30px, 30px, 345px, 345px;
+  background-position-x: 0px, 0px, 0px, 870px;
+}
+.nav-items {
+  display: flex;
+  font-size: 16px;
+  list-style-type: none;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #F6C453;
+  text-align: right;
+  padding-right: 305px;
+  padding: 0 187 0 0;
+  margin: 0px;
+  height: 58px;
+}
+li a {
+  display: inline-block;
+  color: white;
+  padding: 36px 10px;
+  text-decoration: none;
+  height: 0px;
+}
+li a:hover {
+  font-weight: bold;
+  background-color: #183A1D; 
+}
+.hero-images {
+  width: 533px;
+  height: 285px;
+}
+.socials {
+  margin-left: 80px;
+  height: 70px;
+  width: 70px;
+}
+.section2-container {
+  height: 600px;
+  width: auto;
+  background: #FEFBE9;
+  background-image: url("./images/Splatter3.png"), url("./images/Splatter4.png"), 
+  url("./images/splatter5.png"), url("./images/splatter6.png");
+  background-repeat: no-repeat;
+  background-position-y: -604px, -604px, 98px, 510px;
+  background-position-x: 0px, 870px, 0px, 890px;
+}
+.section-titles {
+  display:flex;
+  font-size: 26px;
+  color: #F0A04B;
+}
+.section3-container {
+  height: 600px;
+  width: auto;
+  background: #F0A04B;
+  background-image: url("./images/splatter5.png"), url("./images/splatter6.png");
+  background-repeat: no-repeat;
+  background-position-y: -500px, -90px;
+  background-position-x: 0px, 890px;
+}
+#section3-title {
+  color:white;
+}
+.section4-container {
+  height: 600px;
+  width: auto;
+  background: #FEFBE9;
+}
+#section4-title {
+  font-size: 36px;
+}
